@@ -39,7 +39,7 @@ namespace WindowsFormsApp2
             float true_wynik = 1000000 / 3;
 
             int m = 1;
-            int z = int.Parse(z_box.Text);
+            double z = double.Parse(z_box.Text);
             Random rnd = new Random();
             int d = 10;
             int l = 100000;
