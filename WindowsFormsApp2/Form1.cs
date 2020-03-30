@@ -70,7 +70,7 @@ namespace WindowsFormsApp2
                 if (Math.Abs(single.Area / f -1 )< z / 100.0)
                 {
 
-                    string wynik = "metoda kwadratów parametry to n=";
+                    string wynik = "metoda prostokatow parametry to n=";
                     wynik += n.ToString();
                     wynik += "  wynik to =";
                     wynik += f.ToString();
@@ -82,7 +82,7 @@ namespace WindowsFormsApp2
 
                 n = rnd.Next(d, l);
                 old_i = 0;
-                for (double i = 0.0F; i <= 100.0; i = i + 100F / n)
+                for (double i = single.X1; i <= single.X2; i = i + 100F / n)
                 {
 
                     licz += 1;
